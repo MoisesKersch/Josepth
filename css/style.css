@@ -13,11 +13,13 @@
 
 a{text-decoration: none; color: white;}
 
-html {
+html 
+{
   height: 100%;
 }
-body {
-  min-height: 100%;
+
+body 
+{
   margin: 0px;
 }
 
@@ -27,6 +29,7 @@ body {
 	margin: 0px auto;
 	width: 1600px;
 }
+
 /* Header configuration START */
 
 #header
@@ -68,7 +71,7 @@ body {
   visibility: visible;
 }
 
-#header1
+#title
 {
 	position: relative;
 	display: block;
@@ -78,13 +81,13 @@ body {
 	margin: 0px;
 }
 
-#title
+#title h1
 {
 	position: relative;
 	text-align: center;
 	font-family: 'font2';
-	font-size: 31pt;
-	margin: 0px;
+	font-size: 32pt;
+	margin: 0px auto;
 	top: 20%;
 }
 
@@ -98,7 +101,7 @@ body {
 	border-bottom: 1px solid #a7a4a4;
 }
 
-ul
+#menu ul
 {
 	position: relative;
 	display: block;
@@ -110,7 +113,7 @@ ul
 	font-size: 8.5pt;
 }
 
-li
+#menu li
 {
 	display: inline-block;
 	margin: 6px;
@@ -125,7 +128,12 @@ li
 
 /* Header configuration END */
 
-
-
+@media screen and (max-width: 1599px)
+{
+	#interface 
+	{
+		width: 100%;
+	}
+}
 
 
