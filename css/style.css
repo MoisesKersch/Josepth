@@ -21,6 +21,11 @@ body {
   margin: 0px;
 }
 
+#interface
+{
+	background-color: blue;
+	height: 960px;
+}
 /* Header configuration START */
 
 #header
@@ -94,16 +99,14 @@ body {
 
 ul
 {
-	position: absolute;
+	position: relative;
 	display: block;
 	margin: 0px;
 	text-align: center;
-	left: 35%;
 	text-transform: uppercase;
 	font-family: 'font1';
 	top: 20%;
 	font-size: 8.5pt;
-	width: auto !important; 
 }
 
 li
@@ -115,7 +118,8 @@ li
 #date
 {
 	position: relative;
-	left: 320px;
+	left: 25%;
+	margin: 0px 0px;
 }
 
 /* Header configuration END */
