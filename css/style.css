@@ -11,6 +11,12 @@
     src: url("../fonts/Iglesia.ttf");
 }
 
+*
+{
+	margin: 0px;
+}
+
+
 a{text-decoration: none; color: white;}
 
 html 
