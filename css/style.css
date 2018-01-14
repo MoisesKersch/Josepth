@@ -97,9 +97,9 @@ body
 	background-color: #e6e6e6;
 	position: relative;
 	height: 50px;
-	width: 100%;
 	margin: 0px;
 	border-bottom: 1px solid #a7a4a4;
+	min-width: 10px;
 }
 
 #menu ul
@@ -122,10 +122,10 @@ body
 
 #date
 {
-	position: relative;
-	left: 20%;
+	position: absolute;
+	right: 10%;
+	top: 30%;
 	margin: 0px 0px;
-	overflow: hidden;
 }
 
 /* Header configuration END */
@@ -145,7 +145,7 @@ body
 		width: 100%;
 	}
 	
-	#menu li
+	#menu ul
 	{
 		display: none;
 	}
