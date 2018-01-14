@@ -27,6 +27,7 @@ body
 {
 	position: relative;
 	margin: 0px auto;
+	width: 100%;
 }
 
 /* Header configuration START */
