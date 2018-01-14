@@ -11,17 +11,6 @@
     src: url("../fonts/Iglesia.ttf");
 }
 
-*
-{
-	margin: 0px;
-	padding: 0px;
-}
-
-div 
-{
-  box-sizing: border-box;
-}
-
 a{text-decoration: none; color: white;}
 
 html 
@@ -62,6 +51,7 @@ body
   	color: #000;
   	text-decoration: none;
 	padding: 17px 0px;
+	box-sizing: border-box;
 }
 
 .menuLinks:before 
@@ -75,11 +65,13 @@ body
   left: 0;
   visibility: hidden;
   background-color: black;
+   box-sizing: border-box;
 }
 
 .menuLinks:hover:before 
 {
   visibility: visible;
+   box-sizing: border-box;
 }
 
 #title
@@ -90,6 +82,7 @@ body
 	color: white;
 	background-color: black;	
 	margin: 0px;
+	 box-sizing: border-box;
 }
 
 #title h1
@@ -100,6 +93,7 @@ body
 	font-size: 32pt;
 	margin: 0px auto;
 	top: 20%;
+	 box-sizing: border-box;
 }
 
 #menu
@@ -110,6 +104,7 @@ body
 	width: 100%;
 	margin: 0px;
 	border-bottom: 1px solid #a7a4a4;
+	 box-sizing: border-box;
 }
 
 #menu ul
@@ -122,12 +117,14 @@ body
 	font-family: 'font1';
 	top: 20%;
 	font-size: 8.5pt;
+	 box-sizing: border-box;
 }
 
 #menu li
 {
 	display: inline-block;
 	margin: 6px;
+	 box-sizing: border-box;
 }
 
 #date
@@ -135,6 +132,7 @@ body
 	position: relative;
 	left: 25%;
 	margin: 0px 0px;
+	 box-sizing: border-box;
 }
 
 /* Header configuration END */
