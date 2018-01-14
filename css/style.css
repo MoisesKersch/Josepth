@@ -123,8 +123,9 @@ body
 #date
 {
 	position: relative;
-	left: 25%;
+	left: 20%;
 	margin: 0px 0px;
+	overflow: hidden;
 }
 
 /* Header configuration END */
@@ -137,4 +138,15 @@ body
 	}
 }
 
-
+@media screen and (max-width: 842px)
+{
+	#interface 
+	{
+		width: 100%;
+	}
+	
+	#menu li
+	{
+		display: none;
+	}
+}
