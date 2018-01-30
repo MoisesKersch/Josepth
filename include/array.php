@@ -4,6 +4,6 @@
 				   array('slug' => '???????', 'title' => 'contact'),
 				   array('slug' => '???????', 'title' => 'photos'),
 				   array('slug' => '???????', 'title' => 'adventure'),
-				   array('slug' => '???????', 'title' => 'store'));
+				   array('slug' => './include/form.php', 'title' => 'register'));
 
 ?>

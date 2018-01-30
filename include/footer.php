@@ -1,7 +1,14 @@
   <section>
-    <article> </article>
+    <article>
+
+    </article>
+    <aside>
+
+    </aside>
   </section>
-  <footer></footer>
+  <footer>
+
+  </footer>
 </div>
 </body>
 </html>

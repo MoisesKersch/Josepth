@@ -14,7 +14,7 @@ function getMonth(value)
 	
 function getDateTime()
 {
-	n =  new Date();
+	var n =  new Date();
 	
 	document.getElementById('date').innerHTML = getDay(n.getDay()) + " " + getMonth(n.getMonth()) + " " + n.getDate() + ", " + n.getFullYear();	
 }
